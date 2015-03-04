@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9053FF71AA6B23F00804370 /* libAntTweakBar.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9053FF61AA6B23F00804370 /* libAntTweakBar.dylib */; };
+		F91DD6AE1A96CE7500C9E6DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91DD6AD1A96CE7500C9E6DE /* Cocoa.framework */; };
+		F9F63B001A9819CB00885756 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F63AFF1A9819CB00885756 /* GLUT.framework */; };
+		F9FFE7B91A81145F00EB3F13 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FFE7B81A81145F00EB3F13 /* OpenGL.framework */; };
+		F9FFE7BD1A81147200EB3F13 /* libglfw3.3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FFE7BB1A81147200EB3F13 /* libglfw3.3.0.dylib */; };
+		F9FFE7CA1A8115F500EB3F13 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9FFE7C51A8115F500EB3F13 /* Main.cpp */; };
+		F9FFE7CB1A8115F500EB3F13 /* UserInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9FFE7C81A8115F500EB3F13 /* UserInterface.mm */; };
+		F9FFE7D01A811BA900EB3F13 /* Objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9FFE7CE1A811BA900EB3F13 /* Objects.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9FFE7AC1A81141600EB3F13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F9053FF61AA6B23F00804370 /* libAntTweakBar.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAntTweakBar.dylib; path = ../../../../../usr/local/lib/libAntTweakBar.dylib; sourceTree = "<group>"; };
+		F91DD6AD1A96CE7500C9E6DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F9F63AFF1A9819CB00885756 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F9FFE7AE1A81141600EB3F13 /* 3D Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3D Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FFE7B81A81145F00EB3F13 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F9FFE7BB1A81147200EB3F13 /* libglfw3.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw3.3.0.dylib; path = ../../../../../usr/local/Cellar/glfw3/3.0.4/lib/libglfw3.3.0.dylib; sourceTree = "<group>"; };
+		F9FFE7C51A8115F500EB3F13 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = "3D Objects/3D Objects/Main.cpp"; sourceTree = "<group>"; };
+		F9FFE7C61A8115F500EB3F13 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Main.h; path = "3D Objects/3D Objects/Main.h"; sourceTree = "<group>"; };
+		F9FFE7C71A8115F500EB3F13 /* UserInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInterface.h; path = "3D Objects/3D Objects/UserInterface.h"; sourceTree = "<group>"; };
+		F9FFE7C81A8115F500EB3F13 /* UserInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UserInterface.mm; path = "3D Objects/3D Objects/UserInterface.mm"; sourceTree = "<group>"; };
+		F9FFE7CE1A811BA900EB3F13 /* Objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Objects.cpp; path = "3D Objects/3D Objects/Objects.cpp"; sourceTree = "<group>"; };
+		F9FFE7CF1A811BA900EB3F13 /* Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Objects.h; path = "3D Objects/3D Objects/Objects.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9FFE7AB1A81141600EB3F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9053FF71AA6B23F00804370 /* libAntTweakBar.dylib in Frameworks */,
+				F9F63B001A9819CB00885756 /* GLUT.framework in Frameworks */,
+				F91DD6AE1A96CE7500C9E6DE /* Cocoa.framework in Frameworks */,
+				F9FFE7BD1A81147200EB3F13 /* libglfw3.3.0.dylib in Frameworks */,
+				F9FFE7B91A81145F00EB3F13 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9FFE7A51A81141600EB3F13 = {
+			isa = PBXGroup;
+			children = (
+				F9053FF61AA6B23F00804370 /* libAntTweakBar.dylib */,
+				F9F63AFF1A9819CB00885756 /* GLUT.framework */,
+				F91DD6AD1A96CE7500C9E6DE /* Cocoa.framework */,
+				F9FFE7BB1A81147200EB3F13 /* libglfw3.3.0.dylib */,
+				F9FFE7B81A81145F00EB3F13 /* OpenGL.framework */,
+				F9FFE7B01A81141600EB3F13 /* 3D Objects */,
+				F9FFE7AF1A81141600EB3F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9FFE7AF1A81141600EB3F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFE7AE1A81141600EB3F13 /* 3D Objects */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9FFE7B01A81141600EB3F13 /* 3D Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F9FFE7C51A8115F500EB3F13 /* Main.cpp */,
+				F9FFE7C61A8115F500EB3F13 /* Main.h */,
+				F9FFE7C71A8115F500EB3F13 /* UserInterface.h */,
+				F9FFE7C81A8115F500EB3F13 /* UserInterface.mm */,
+				F9FFE7CE1A811BA900EB3F13 /* Objects.cpp */,
+				F9FFE7CF1A811BA900EB3F13 /* Objects.h */,
+			);
+			path = "3D Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9FFE7AD1A81141600EB3F13 /* 3D Objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9FFE7B51A81141600EB3F13 /* Build configuration list for PBXNativeTarget "3D Objects" */;
+			buildPhases = (
+				F9FFE7AA1A81141600EB3F13 /* Sources */,
+				F9FFE7AB1A81141600EB3F13 /* Frameworks */,
+				F9FFE7AC1A81141600EB3F13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Objects";
+			productName = "3D Objects";
+			productReference = F9FFE7AE1A81141600EB3F13 /* 3D Objects */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9FFE7A61A81141600EB3F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Carlos Mora";
+				TargetAttributes = {
+					F9FFE7AD1A81141600EB3F13 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F9FFE7A91A81141600EB3F13 /* Build configuration list for PBXProject "3D Objects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9FFE7A51A81141600EB3F13;
+			productRefGroup = F9FFE7AF1A81141600EB3F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9FFE7AD1A81141600EB3F13 /* 3D Objects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9FFE7AA1A81141600EB3F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FFE7CB1A8115F500EB3F13 /* UserInterface.mm in Sources */,
+				F9FFE7D01A811BA900EB3F13 /* Objects.cpp in Sources */,
+				F9FFE7CA1A8115F500EB3F13 /* Main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9FFE7B31A81141600EB3F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9FFE7B41A81141600EB3F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9FFE7B61A81141600EB3F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					/usr/local/Cellar/glfw3/3.0.4/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9FFE7B71A81141600EB3F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					/usr/local/Cellar/glfw3/3.0.4/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9FFE7A91A81141600EB3F13 /* Build configuration list for PBXProject "3D Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FFE7B31A81141600EB3F13 /* Debug */,
+				F9FFE7B41A81141600EB3F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FFE7B51A81141600EB3F13 /* Build configuration list for PBXNativeTarget "3D Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FFE7B61A81141600EB3F13 /* Debug */,
+				F9FFE7B71A81141600EB3F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9FFE7A61A81141600EB3F13 /* Project object */;
+}
